@@ -2,6 +2,9 @@
 require_once "data/Murid.php";
 
 $data = new Murid();
+// untuk memanipulasi properties itu sama seperti kita memanipulasi variable
+// untuk mengakses proeprties/field kita bisa menggunakan kata kunci -> setelah nama object
+// dan diikuti dengan nama properties nya
 $data->nama = "Farish";
 $data->kelas = "11";
 $data->jurusan = "PPLG";
