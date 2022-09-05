@@ -8,3 +8,7 @@ $farish->sapaan("Lana");
 $lana = new Murid();
 $lana->nama = "lana";
 $lana->sapaan(null);
+
+$farish->info();
+echo PHP_EOL;
+$lana->info();

@@ -4,6 +4,14 @@
 
 class Murid 
 {
+// constant
+    const AUTHOR = "Muhammad Farish Asqalani";
+    
+    // jika kita ingin mengakses const didalam class yang sama kita bisa menggunakan self:: dibandingkana namaClass::
+    function info() {
+        echo "dibuat oleh ". self::AUTHOR;
+    }
+
 // properties adalah data yang bisa kita sisipkan kedalam object
 // membuat field sama seperti saat kita membuat variable
 // namun ditempatkan didalam class dan diawali dengan kata kunci var
